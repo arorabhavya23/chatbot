@@ -20,7 +20,7 @@ app.get('/', function(req, res) {
 
 //Facebook
 
-let token = "EAAFHZB9EgHwABAAE1HSLMZAsvENnwBDXHUeZBwPzEZBiH6Bb5hXCfqanp09kjpzGnhY35xszVe5LIjQOwrIgjBvYuhIjd5ShhOGY6w7Fib7QFbx81eBniZCdYE9MOku5teLGhIaWkdx49aHCExZALMJlimw7k1rQTxuZATaItZBVuAZDZD"
+let token = "/*use the token from facebook*/"
 
 app.get('/webhook/', function(req, res) {
   if(req.query['hub.verify_token'] === "some@1234") {
