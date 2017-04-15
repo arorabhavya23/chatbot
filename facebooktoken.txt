@@ -1,0 +1,11 @@
+to have an facebook token for the nessenger services 
+one must have his or her own facebbok page.
+That user must register himself on the https://developers.facebook.com/
+with the same user id that has the page.
+Goto the option of adding new app and fill the required details
+select the products when promted 
+we will need webhook and messenger for this project.
+Now do select the messenger in the product section 
+then search for tokens on the page, it'll ask to select the page for which you do need an token 
+then select your facebookpage. the token will be visible to you and hence do copy that token
+to the code file of the nodejs ie (index.js)
